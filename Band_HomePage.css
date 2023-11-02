@@ -1,9 +1,11 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #f2f2f2;
+
 }
 /* Position of navigation bar */
 .nav {
@@ -16,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(28, 255, 58);
+    background-color: rgb(153, 28, 255);
 }
 
 li {
@@ -32,22 +34,18 @@ li {
     padding: 17px 20px;
     text-decoration: none;
 }
-
+/* login tAG */
 #login {
     float: right;
     margin: 15px 21px;
     padding: 0px;
     color: black;
     background-color: rgb(180 220 255);
-    color: #0700c1;
+    color: #c1004a;
     font-size: 25px;
-    border: 1px solid #333;
+    border: 1px solid #8c0f0f;
 }
-
-#login:visited {
-    color: blue;
-}
-
+/* Sign up */
 #sign {
     float: right;
     margin: 15px 21px;
@@ -59,36 +57,31 @@ li {
     border: 1px solid #333;
 }
 
-#sign:visited {
-    color: blue;
-    text-decoration: underline;
-}
-
+/* Collection of bands */
 #header1 {
-    background-color: #1a1414;
-    color: white;
+    background-color: #9e009e;
+    color: rgb(220, 94, 94);
     text-align: center;
     padding-top: 60px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 3px;
     font-size: 20px;
-    text-shadow: 3px 3px rgb(86, 88, 86);
+    text-shadow: 3px 3px rgb(216, 134, 202);
 }
 
 #header2 {
     width: 100%;
     padding-top: 10px;
-    background-color: #54a1d9;
+    background-color: #6c008d;
     border-radius: 10px;
-    color: white;
+    color: rgb(248, 101, 101);
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     font-size: 1.5em;
-    box-shadow: 10px 10px 0px 5px rgb(149 224 255);
-    text-shadow: 3px 3px rgb(113, 90, 60);
+    text-shadow: 3px 3px rgb(97, 60, 113);
 }
 
 li a:hover {
@@ -107,8 +100,8 @@ li a:hover {
 }
 
 .band1 {
-    background-color: #35bffd;
-    color: #2b24e9;
+    background-color: #7835fd;
+    color: #c6c4ff;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     display: grid;
@@ -117,18 +110,18 @@ li a:hover {
     height: 100%;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(3, 1fr);
-    border: 3px solid black;
-    box-shadow: 10px 10px 0px 5px #6fffff;
+    border: 3px solid rgb(210, 4, 4);
+    box-shadow: 10px 10px 0px 5px #bd38ff;
 }
 
 .band {
-    background-color: #7fedff;
-    border: 1px solid #ccc;
+    background-color: #d118d1;
+    border: 1px solid #ff8d8d;
     border-radius: 5px;
     padding: 40px;
     text-align: center;
     max-width: 280px;
-    box-shadow: 10px 10px rgb(156 101 246 / 87%);
+    box-shadow: 10px 10px rgba(113, 41, 229, 0.87);
     /* box-shadow: -10px -10px rgb(169, 243, 240); */
 }
 .band img {
@@ -137,14 +130,17 @@ li a:hover {
 
 #Contact {
     text-align: center;
-    font-size: 60px;
-    background-color: rgb(0, 0, 0);
-    border: 1px solid black;
-    border-radius: 10px;
-    color: aliceblue;
-    margin-top: 10px;
-    padding-bottom: 60px;
+    font-size: 40px;
+    background-color: rgb(217, 37, 37);
+    border: 1px solid rgb(240, 104, 104);
+    color: rgb(35, 38, 40);
+    margin-top: 20px;
+    padding-top:20px;
+    padding-bottom: 40px;
     font-weight: bold;
-    text-shadow: 3px 3px rgb(221, 171, 106);
+    text-shadow: 3px 3px rgb(67, 108, 120);
+}
+#heading2{
+    padding-top:20px;
 }
 
