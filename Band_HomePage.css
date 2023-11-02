@@ -5,26 +5,24 @@ body {
     box-sizing: border-box;
     background-color: #f2f2f2;
 }
-
-
-
+/* Position of navigation bar */
 .nav {
     position: fixed;
     width: 100%;
 }
-
+/* List present in nav bar */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(28, 166, 255);
+    background-color: rgb(28, 255, 58);
 }
 
 li {
     display: inline;
 }
-
+/* Home, about, contact css */
 .anc {
     float: left;
     display: block;
@@ -133,11 +131,6 @@ li a:hover {
     box-shadow: 10px 10px rgb(156 101 246 / 87%);
     /* box-shadow: -10px -10px rgb(169, 243, 240); */
 }
-
-/* .band1 img{
-    grid-column-start: 1;
-    grid-column-end: 3;
-} */
 .band img {
     max-width: 100%;
 }
@@ -155,37 +148,3 @@ li a:hover {
     text-shadow: 3px 3px rgb(221, 171, 106);
 }
 
-
-@media (max-width:761px) {
-    li a {
-        float: left;
-        display: block;
-        color: white;
-        font-size: large;
-        text-align: center;
-        padding: 30px 8px;
-        text-decoration: none;
-    }
-
-    #login {
-        float: right;
-        margin: 30px 8px;
-        font-size: large;
-    }
-
-    #sign {
-        float: right;
-        margin: 30px 8px;
-        font-size: large;
-    }
-
-    #band-list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 20px;
-        padding: 20px;
-        flex-direction: column;
-    }
-}
