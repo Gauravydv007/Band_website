@@ -86,7 +86,7 @@ li {
 
 li a:hover {
     background-color: #111;
-    color: red;
+    color: rgb(237, 129, 129);
 }
 
 #band-list {
@@ -131,9 +131,9 @@ li a:hover {
 #Contact {
     text-align: center;
     font-size: 40px;
-    background-color: rgb(217, 37, 37);
+    background-color: rgb(69, 44, 44);
     border: 1px solid rgb(240, 104, 104);
-    color: rgb(35, 38, 40);
+    color: rgb(191, 131, 116);
     margin-top: 20px;
     padding-top:20px;
     padding-bottom: 40px;
